@@ -855,26 +855,7 @@ button {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
-.philosophy-deco {
-  position: absolute;
-  top: auto;
-  bottom: calc(100% + 40px);
-  right: 0;
-  width: 100px;
-  max-width: 40%;
-  z-index: 5;
-  pointer-events: none;
-  opacity: 1;
-}
 
-@media (min-width: 768px) {
-  .philosophy-deco {
-    width: 320px;
-    top: auto;
-    bottom: calc(100% + 80px);
-    right: -5%;
-  }
-}
 
 /* ============================================================
    ABOUT / COMPANY
