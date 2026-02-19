@@ -165,4 +165,24 @@
 
     sections.forEach((section) => sectionObserver.observe(section));
   }
+
+  // ============================================================
+  // BACK TO TOP
+  // ============================================================
+
+  const backToTop = document.getElementById('backToTop');
+
+  if (backToTop) {
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 400) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    }, { passive: true });
+
+    backToTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 })();
