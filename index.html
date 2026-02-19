@@ -166,7 +166,7 @@
             </div>
           </div>
           <div class="philosophy-visual reveal">
-            <img src="images/philosophy-concept.png" alt="都市とエネルギーのイメージ" class="philosophy-img" loading="lazy">
+            <img src="images/philosophy-city2.png" alt="都市とエネルギーのイメージ" class="philosophy-img" loading="lazy">
           </div>
         </div>
       </div>
@@ -206,8 +206,6 @@
                 <dd>SDGsに関する企画、設計、実施、運用、PR、研修、パートナーマッチング新規事業創出</dd>
               </div>
             </dl>
-
-
           </div>
         </div>
       </div>
@@ -224,20 +222,23 @@
         <div class="contact-form-wrap reveal">
           <form class="contact-form" onsubmit="return false;">
             <div class="form-group">
-              <label for="name" class="form-label">お名前 <span class="required">*</span></label>
-              <input type="text" id="name" class="form-input" placeholder="" required>
+              <label for="contact-name" class="form-label">お名前 <span class="required">*</span></label>
+              <input type="text" id="contact-name" name="name" class="form-input" autocomplete="name" placeholder=""
+                required>
             </div>
             <div class="form-group">
-              <label for="email" class="form-label">メールアドレス <span class="required">*</span></label>
-              <input type="email" id="email" class="form-input" placeholder="" required>
+              <label for="contact-email" class="form-label">メールアドレス <span class="required">*</span></label>
+              <input type="email" id="contact-email" name="email" class="form-input" autocomplete="email" placeholder=""
+                required>
             </div>
             <div class="form-group">
-              <label for="company" class="form-label">会社名</label>
-              <input type="text" id="company" class="form-input" placeholder="">
+              <label for="contact-company" class="form-label">会社名</label>
+              <input type="text" id="contact-company" name="company" class="form-input" autocomplete="organization"
+                placeholder="">
             </div>
             <div class="form-group">
-              <label for="message" class="form-label">お問い合わせ内容 <span class="required">*</span></label>
-              <textarea id="message" class="form-textarea" rows="5" required></textarea>
+              <label for="contact-message" class="form-label">お問い合わせ内容 <span class="required">*</span></label>
+              <textarea id="contact-message" name="message" class="form-textarea" rows="5" required></textarea>
             </div>
             <p class="form-privacy">
               <a href="privacy.html" target="_blank">プライバシーポリシー</a>に同意の上、<br class="sp-only">お問い合わせください。
